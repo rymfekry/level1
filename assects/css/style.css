@@ -1,0 +1,39 @@
+.tab-titel{
+    cursor: pointer;
+}
+.tab-titel:hover{
+    background-color: rgba(211, 208, 208, 0.3);
+}
+.titel-contant .active {
+    background-color: rgba(211, 208, 208, 0.3);
+    
+    /* background-color: aqua; */
+}
+.tab-contant{
+    display: none;
+    opacity: 0;
+}
+.tab-contant.active{
+    opacity: 1;
+    display: block;
+}
+.color-container{
+    width: 150px;
+    position: fixed;
+    right: 15px;
+    top: 50px;
+    padding: 15px;
+}
+.color-container .color{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #1783d0;
+    border-radius: 3px;
+    margin: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.color-container .selected-color{
+    border: 1px solid #000;
+}
